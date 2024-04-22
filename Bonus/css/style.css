@@ -1,0 +1,88 @@
+/* regole generali */
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* regole header */
+
+header {
+    background-image: url(../img/pattern.png);
+    background-color: #4EA0FF;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#logo {
+    width: 200px;
+}
+
+/* regole body */
+
+.evi { 
+    background:#FFFF00;
+
+}
+
+#autore {
+    color: #4EA0FF;
+}
+
+#fotodescription {
+    font-size: 10px;
+}
+
+#list {
+    margin-left: -20px;
+}
+
+/* regole tabella */
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.tdsmall {
+    width: 20%;
+}
+
+#colhead {
+    background-color: #4EA0FF;
+    text-align: left;
+    color: white;
+}
+
+.coldisp {
+    background-color: #B1E5F2;
+}
+
+/* regole footer */
+
+h3 {
+    color: grey;
+    font-size: 16px;
+}
+
+#footerimg1 {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    height: 280px;
+}
+
+#footerimg2 {
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 280px;
+}
+
+.loremtxt {
+    text-align: left;
+    margin: 20px;
+}
