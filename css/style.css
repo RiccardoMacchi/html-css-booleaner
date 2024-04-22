@@ -1,0 +1,15 @@
+/* regole generali */
+
+/* regole header */
+
+header {
+    background-image: url(../img/pattern.png);
+    background-color: lightblue;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#logo {
+    width: 250px;
+}
+
