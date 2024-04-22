@@ -10,13 +10,13 @@
 
 header {
     background-image: url(../img/pattern.png);
-    background-color: lightblue;
+    background-color: rgb(93, 79, 227);
     background-size: contain;
     background-repeat: repeat;
 }
 
 #logo {
-    width: 250px;
+    width: 200px;
 }
 
 /* regole body */
@@ -52,4 +52,31 @@ table {
 
 .coldisp {
     background-color: aqua;
+}
+
+/* regole footer */
+
+h3 {
+    color: grey;
+    font-size: 16px;
+}
+
+#footerimg1 {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 260px;
+    text-align: center;
+    width: 280px;
+}
+
+#footerimg2 {
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 260px;
+    text-align: center;
+    width: 280px;
 }
