@@ -34,3 +34,22 @@ header {
     font-size: 10px;
 }
 
+/* regole tabella */
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.tdsmall {
+    width: 20%;
+}
+
+#colhead {
+    background-color: rgb(75, 75, 206);
+    text-align: left;
+    color: white;
+}
+
+.coldisp {
+    background-color: aqua;
+}
