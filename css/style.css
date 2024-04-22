@@ -2,6 +2,10 @@
 
 /* regole header */
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     background-image: url(../img/pattern.png);
     background-color: lightblue;
@@ -13,3 +17,11 @@ header {
     width: 250px;
 }
 
+/* regole body */
+#autore {
+    color: blue;
+}
+
+#fotodescription {
+    font-size: 10px;
+}
