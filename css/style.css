@@ -10,7 +10,7 @@
 
 header {
     background-image: url(../img/pattern.png);
-    background-color: rgb(93, 79, 227);
+    background-color: #4EA0FF;
     background-size: contain;
     background-repeat: repeat;
 }
@@ -27,11 +27,15 @@ header {
 }
 
 #autore {
-    color: blue;
+    color: #4EA0FF;
 }
 
 #fotodescription {
     font-size: 10px;
+}
+
+#list {
+    margin-left: -20px;
 }
 
 /* regole tabella */
@@ -45,13 +49,13 @@ table {
 }
 
 #colhead {
-    background-color: rgb(75, 75, 206);
+    background-color: #4EA0FF;
     text-align: left;
     color: white;
 }
 
 .coldisp {
-    background-color: aqua;
+    background-color: #B1E5F2;
 }
 
 /* regole footer */
@@ -66,9 +70,8 @@ h3 {
     background-repeat: no-repeat;
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 260px;
     text-align: center;
-    width: 280px;
+    height: 280px;
 }
 
 #footerimg2 {
@@ -76,7 +79,10 @@ h3 {
     background-repeat: no-repeat;
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 260px;
-    text-align: center;
-    width: 280px;
+    height: 280px;
+}
+
+.loremtxt {
+    text-align: left;
+    margin: 20px;
 }
